@@ -1,6 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
-import Data from "./Data.json";
+import Data from "./Data.json"; // Dummy Data from dummy.json website.
 
 export default function App() {
   const [userList, setUserList] = useState(Data.users);
